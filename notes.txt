@@ -1,0 +1,71 @@
+2017-01-13
+15:20:35
+I had a nap
+
+15:56:59
+Reading chapter 12 from Molecular quantum mechanics by Atkins - vibronic transitions. I realise now that molecular physics is very broad and the full characteristics of a real polyatomic molecular spectrum will have many subtle effects due to various different types of vibrational and rotational interactions. Reading about vibronic transitions and Franck-Condon physics I have a better idea of the fundamentals now: electron is excited to different distribution, exerting a different force on the nucleus. Nuclei respond by vibrating differently - many lines in absorption spectrum. FC: nuclear conformation readjusts after the elecronic transition, not during. Upper curve displaces to right because excitation of electron normally sends molecule into a more antibonding state (bond is weaker - raises energy of molecule), force/spring constants also change. When electron icompletes transition, nuclei are still in their original positions - transition to upper state is vertical. Upper state conformation is compressed so it breaks into more vigorous vibration. Upper states are occupied according to the overlap between their (relatively displaced) wavefunctions. Intensity of transition depends on transition moment.
+
+16:29:34
+Looked at charge-transfer transitions and how the wavefunction overlap ldetermines transition intensity. Chromophores (light absorbing units) and lots of confusing things about irreducible representations determining allowed transitions. Discussion of vibronically allowed transitions - potential experienced by electrons depends on conformation->electronic Hamiltonian does too->perturb to see how this affects transition moments. Other allowed states are mixed together and form the overall wavefunction->Forbidden transition borrows intensity from the allowed transitions. More to do with symmetry and how to apply vibronic mixing to sselection rules. Next section is interesting (about decay of excitation and thermal decay).
+
+17:28:33
+I referenced my abstract for QuEBS 2017
+
+
+2017-01-16
+14:14:41
+Positive
+I would like to learn enough fundamental physics about vibronic effects in molecular systems to be able to commence truly productive and insightful work on the mythical notes which I have been promising Ahsan for a long time. I have a meeting in 45 minutes which gives me enough time for one pomodoro and a quick break.. In the first session of today I will thus look through the notes I made yesterday and embelish the notes I have made last year - this should hopefully maximisee my productivity in the meeting. Try to understand where exactly my knowledge is lacking to really bring my work to life.
+
+14:43:48
+I read over yesterdays note-bank to revise the theory I'd learned about evibronic coupling in molecules. Then reading back over the work that I did last year, I can see some gaping holes in the theory. My understanding of Franck-Condon phhysics is far more cohesive now and I can improve these notes. It appears like I am missing motivation - I seem to "know" that strong-coupling is important but I ddo not give any reference to any evidence for it. Look over as much literature as you can to find out where strong-coupling is important - is it just in intra-moolecular vibrations? If so then we could just include sharply-defined vibrations by hand without the RC-approach. Look beyond to solid-state and organic solar literature.
+
+15:32:22
+I began reading the de Jong paper on the relation between Stokes Shift and Huang-Rhys parameter. Stokes shift iseemis defined as the difference in energy between the maxima of the smooth vibrational absorption and emission bands (at room temperature). Huang-Rhys parameter is a function of the equilibrium position of nucclear coordinates of excited and ground states. Vibrational coupling determines separation of spectral bands -> predict stokes shift from QM considerations of vibronic-coupling.
+
+16:26:45
+I had a chat with Ahsan and then got distracted by buying a mortice lock. I read some more of the de Jong paper - they outline how they are going to relate Stokes shifts to Huang-Rhys parameters. Temperature dependence of peak broadeningg and thermal occupation of higher vibrational states.
+
+17:16:46
+I rad some more about vibronic coupling. It explained where the textbook relations for stokes shifts comes from. THen fell asleep.
+
+2017-01-17
+12:49:54
+Mood: Bedraggled
+I would like to write and edit my notes to get the introduction to a reasonable standard. I also need to take a look at eprog to see what needs to be done, making a start on a few things perhaps. Re:notes, I mean the vibronic, driven TLS notes. I would like to give a proper introducton about molecular vibrations and electron-vibration interactions.
+
+13:11:36
+Began rewriting the vibronic incoherent notes, putting in more detail about electron-vibration interactions in molecules.
+
+
+2017-01-17
+15:32:27
+Mood: Motivated
+I would like to complete all of the eprog deadlines. I would also like to carry out the basic calculation that Ahsan suggested, looking through Adam's PRA paper and Ahsan's notes in order to full understand what the next step is for the vibronic system.
+2017-01-17
+15:54:02
+Mood: Still optimistic
+
+16:16:18
+Began reading Adam's paper. It is written well but so far the information hasn't been too relevant to the discussion I was having with Ahsan. Basically what we want to do is to derive an optical spectral density from physically realistic parameters - comparing both the minimal coupling and multipolar gauge Hamiltonians. The idea is that the coupling of the vibronic system to the electromagnetic field is always via the electronic part of the system. Therefore the form of spectral density should not be any different to the bare electronic system, where the variation in coupling is largely due to the frequency of the transition in question. The next  section of Adam's paper goes into more detail about the various forms of Hamiltonianan.
+
+16:41:42
+Actually managed to read pretty much all of the important background from Adam's paper. I'm not too interested in how he gets the minimal moupling and multipolar Hamiltonians (weird PZW transformation) just about how Ahsan uses them to define a spectral density. The question will be, which gauge will I use for the vibronic syystem and does this matter?
+
+17:33:28
+I did loads of eprog. I've basically finished it now, I just need to dot the t''s and cross the j's.
+
+2017-01-18
+2017-01-18
+10:15:10
+Mood: Let's go!
+I would like to work through Ahsan's notes to make sure I understand all of the steps. Show that both the coulomb gauge and the multipolar gauge lead to the same expression for spectral density for he TLS. How will this differ for the vibronic system? Reacquaint myself with my TLS code - check README and write down aims. I would also like to continue reading raw molecular physics as I feel like it is really helping my intuition. I also need to finish eprog.
+10:56:16
+NOt too much, just began the calculation and searched through Carmichael's statistical methods in quantum optics 1 for a reference that Ahsan gave. I couldn't find it anywhere and concluded that Carmichael doesn't write very clearly. I don;t understand how and why we choose the coordinate system to swap the polarisattion vectors for wavevectors.
+
+11:49:10
+Continued work slowly on the derivation. Got distracted by the death of William Onyeabor. In Ahsan's notes he uses the parameter/timescale considerations to simplify the complicated expressions for coherences from the solution of the optical master equation. We merely use this as a means to define a spectral density, since we believe the electronic system is the only means by which the vibrations couple to the field. I think this means that we don't have to know the dipole moment explicitly, just the decay timescale of an electronically excited molecule.
+
+12:48:11
+Okay so I made a big mistake with github. I accidentally erase all of the changes I made to the notes this year.
+
