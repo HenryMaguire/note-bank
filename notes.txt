@@ -69,3 +69,7 @@ Continued work slowly on the derivation. Got distracted by the death of William 
 12:48:11
 Okay so I made a big mistake with github. I accidentally erase all of the changes I made to the notes this year.
 
+2017-01-19
+18:29:51
+Mood: Bleary
+I would like to use the quick calculations I did yesterday and the chat I had with Ahsan to work out what the decay rates of vibronic transitions are.
