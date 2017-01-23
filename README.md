@@ -9,12 +9,11 @@ As of yet, this will only work in OSX because it relies on osascript. I'm workin
 2. Change the variable `DIR` to the working directory you would like to save your notes to
 3. In `file_path` change `notes.txt` to whatever you want your notes file to be called.
 4. Run the app in terminal by entering `bash note-bank.bash` (make sure you're in the application directory).
-5. Follow all of the
+5. Follow all of the directions in terminal
 
 # New features
 - Users can input their own working directory, so the notes are saved elsewhere on the computer (rather than just next to the .bash file). This means users can easily work on different threads/projects by just changing the file_path variable. It also keeps my personal notes separate from the app so can access it freely.
 
 # Future features
-- Different projects could have different threads
-- Add timestamps onto command line comments so you can see exactyl when the session began
-- The pop-up will be the writing field. I think I can use tkinter for this.
+- Compatibility with linux and Windows. Perhaps would need to rewrite everything in Python and use some of the available resources.
+- Turn the pop-ups/alerts into the writing field for the summaries. I think I can use tkinter for this.
