@@ -3,6 +3,7 @@
 DIR="/Users/henrymaguire/Work/phd-work/note-bank"
 mkdir -p $DIR
 file_path="$DIR/notes.txt"
+# Change these to suit your needs (they are in minutes)
 pom_number=5; study_length=20; rest_length=5; summary_length=5
 pom_length=$((study_length+rest_length+summary_length))
 session_length=$((pom_number*pom_length))
