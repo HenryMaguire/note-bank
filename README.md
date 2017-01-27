@@ -1,5 +1,9 @@
 # Overview
-This is a small command line-based productivity app, based on the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). You start out by writing down what you aim to achieve over the next 5 sessions. Then a timer is set and and you get to work. When the timer finishes a box pops up which prompts you to write a brief summary (in Terminal) of what you did in the last session. The entry is saved in a text file along with the time and date. You then have a short break. Rinse and repeat. I wrote it in shell because I wanted to have system pop-ups, clearly it's not the most user friendly application in the world but it has been really useful for me.
+This is a small command line-based productivity app, based on the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). The user-interface is not much to look at but it has been very helpful to me.
+
+You start out by writing down what you aim to achieve over the next 5 sessions. Then a timer is set and and you get to work. When the timer finishes a box pops up which prompts you to write a brief summary (in Terminal) of what you did in the last session. The entry is saved in a text file along with the time and date. You then have a short break. Rinse and repeat.
+
+Enjoy.
 
 # System requirements
 As of yet, this will only work in OSX because it relies on *osascript*. I'm working on making it compatible with all platforms! Apart from that you shouldn't need anything else installed.
