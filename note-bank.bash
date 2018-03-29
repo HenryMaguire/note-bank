@@ -1,19 +1,22 @@
 # Program for Pomodoro timer
 #!/bin/bash
 #aplay /usr/share/sounds/alsa/Side_Right.wav
+# first check whether the directory is correct
 DIR="/home/henry/Work/phd-work/note-bank"
 mkdir -p $DIR
-file_path="$DIR/monomer_notes.txt"
+#file_path="$DIR/exploration_notes.txt"
+#file_path="$DIR/monomer_notes.txt"
+file_path="$DIR/quantum_jump_notes.txt"
+
 # Change these to suit your needs (they are in minutes)
-pom_number=$1; study_length=21; rest_length=4; summary_length=4; long_rest_length=20;
+pom_number=$1; study_length=26; rest_length=4; summary_length=4; long_rest_length=20;
 pom_length=$((study_length+rest_length+summary_length))
 session_length=$((pom_number*pom_length))
 #Here we will make sure the user is ready for this session. Log a time and date stamp.
 timeEnd=$((`date +%s` + $((60*session_length)) ))
 strEnd=`date --date @$timeEnd +%H:%M:%S`
 echo -e "\nPress return when you are ready to start your set of $pom_number pomodoros.\nThis will take roughly $((session_length/60)) hours and $((session_length%60)) minutes - until $strEnd."
-echo "This session will save to $file_path"
-read ready
+echo "This will save to $file_path."
 echo "`date +%Y-%m-%d` at `date +%H:%M:%S`" >> $file_path
 echo -e "What would you like to achieve in these next $pom_number sessions?"
 read begin_note
