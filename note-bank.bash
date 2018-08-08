@@ -5,8 +5,10 @@
 DIR="/home/henry/Work/phd-work/note-bank"
 mkdir -p $DIR
 #file_path="$DIR/exploration_notes.txt"
+file_path="$DIR/spectra_notes.txt"
 #file_path="$DIR/monomer_notes.txt"
-file_path="$DIR/quantum_jump_notes.txt"
+#file_path="$DIR/quantum_jump_notes.txt"
+#file_path="$DIR/quantum_biology_notes.txt"
 
 # Change these to suit your needs (they are in minutes)
 pom_number=$1; study_length=26; rest_length=4; summary_length=4; long_rest_length=20;
